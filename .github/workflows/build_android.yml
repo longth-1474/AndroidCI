@@ -5,7 +5,6 @@ on:
 
 jobs:
   build_app:
-    needs: [check_unit_test]
     name: Build APK
     runs-on: ubuntu-latest
 
